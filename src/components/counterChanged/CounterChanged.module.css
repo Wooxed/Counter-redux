@@ -1,0 +1,67 @@
+.CounterChanged {
+display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    background-color: #282c34;
+    width: 400px;
+    height: 300px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #61dafb;
+    background-color: #282c34;
+    border-radius: 5px;
+    width: 360px;
+    height: 120px;
+}
+.disabled {
+    font-size: 45px;
+    background-color: #387d8f;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 140px;
+    height: 60px;
+}
+.setInput {
+    display: flex;
+    background-color: #282c34;
+    color: #61dafb;
+    width: 360px;
+    height: 120px;
+    text-align: start;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+.setValue {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    height: 40px;
+}
+.defaultInput {
+    width: 150px;
+    height: 30px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    text-align: center;
+}
+.errorInput {
+    background: #F10000;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    text-align: center;
+}

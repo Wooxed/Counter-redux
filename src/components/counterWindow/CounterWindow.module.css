@@ -1,0 +1,60 @@
+.CounterWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    background-color: #282c34;
+    width: 400px;
+    height: 300px;
+}
+.numberFull {
+    background-color: #282c34;
+    width: 360px;
+    height: 120px;
+    font-size: 80px;
+    text-align: center;
+    border: 2px solid #61dafb;
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+    color: #F10000;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    width: 360px;
+    height: 120px;
+}
+.error {
+    background-color: #282c34;
+    color: #F10000;
+    width: 360px;
+    height: 120px;
+    font-size: 24px;
+    text-align: center;
+    justify-items: center;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+error p {
+    position: absolute;
+    top: 50%;
+}
+.number {
+    background-color: #282c34;
+    color: #61dafb;
+    width: 360px;
+    height: 120px;
+    font-size: 80px;
+    text-align: center;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+}

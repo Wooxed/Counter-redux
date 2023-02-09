@@ -1,0 +1,37 @@
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #61dafb;
+    background-color: #282c34;
+    border-radius: 5px;
+    width: 360px;
+    height: 120px;
+}
+.button {
+    font-size: 34px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+}
+.button:hover {
+    background-color: #4daac9;
+}
+.button:active {
+    color: white;
+}
+.disabled {
+    font-size: 34px;
+    background-color:  #467b8c;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+}
